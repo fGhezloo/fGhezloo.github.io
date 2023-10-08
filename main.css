@@ -54,6 +54,82 @@ a:hover {
     color: #1565c0;
 }
 
+.navigation { 
+    height: 6.0rem; 
+    width: 100%;
+} 
+
+a { 
+    background-color: transparent;
+} 
+
+a { 
+    color: #1565c0; 
+    text-decoration: none;
+} 
+
+.navigation a  { 
+    display: inline; 
+    font-size: 1.6rem; 
+    font-family: "Lato", sans-serif; 
+    font-weight: 700; 
+    line-height: 6.0rem; 
+    color: #212121;
+}
+
+.navigation .navigation-title  { 
+    font-weight: 700;
+} 
+
+a:hover { 
+    color: #217ee7;
+} 
+
+.navigation a:hover { 
+    color: #217ee7; 
+    border-bottom: 2px #217ee7 solid;
+} 
+
+.navigation #menu-toggle  { 
+    display: none;
+} 
+
+
+.navigation .menu-button  { 
+    display: none;
+} 
+
+.navigation .navigation-list  { 
+    float: right; 
+    list-style: none; 
+    margin-bottom: 0; 
+    margin-top: 0;
+} 
+
+.navigation .navigation-list .navigation-item  { 
+    float: left; 
+    margin: 0; 
+    position: relative;
+} 
+
+
+.inline-svg svg  { 
+    width: 1em; 
+    height: 1em; 
+    fill: currentColor; 
+    display: inline-block;
+} 
+
+.navigation .navigation-list .navigation-item a  { 
+    margin-left: 1.0rem; 
+    margin-right: 1.0rem;
+} 
+
+.navigation a:hover, .navigation a:focus { 
+    color: #217ee7; 
+    border-bottom: 2px #217ee7 solid;
+} 
+
 
 
 /*  */
