@@ -300,4 +300,217 @@ p {
 } 
 
 
+/* About me */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i&display=swap'); 
+  body {  
+    color:#212121;
+    font-family:"Merriweather", serif;
+    font-size:62.5%;
+    font-weight:300;
+    line-height:1.15;
+  }  
+* { 
+    box-sizing: inherit;
+} 
+
+body { 
+    margin: 0;
+} 
+
+body { 
+    color: #212121; 
+    background-color: #FAFAFA; 
+    font-family: "Merriweather", serif; 
+    font-size: 1.6em; 
+    font-weight: 300; 
+    line-height: 1.8em;
+} 
+
+html { 
+    line-height: 1.15; 
+    -webkit-text-size-adjust: 100%;
+} 
+
+html { 
+    box-sizing: border-box; 
+    font-size: 62.5%;
+} 
+
+main { 
+    display: block;
+} 
+
+.wrapper { 
+    flex-direction: column; 
+    display: flex; 
+    min-height: 100vh; 
+    width: 100%; 
+    max-width: 768px; 
+    margin: 0 auto;
+} 
+
+*,:after,:before { 
+    box-sizing: inherit;
+} 
+
+.navigation { 
+    height: 6.0rem; 
+    width: 100%;
+} 
+
+.content { 
+    flex: 1; 
+    display: flex;
+} 
+
+.footer { 
+    border-top: 1px solid lightgray; 
+    color: gray; 
+    font-size: x-small; 
+    line-height: 2em; 
+    margin-bottom: 32px; 
+    margin-top: 32px; 
+    padding: 16px; 
+    text-align: center; 
+    width: 100%;
+} 
+
+a { 
+    background-color: transparent;
+} 
+
+a { 
+    color: #1565c0; 
+    text-decoration: none;
+} 
+
+.navigation a  { 
+    display: inline; 
+    font-size: 1.6rem; 
+    font-family: "Lato", sans-serif; 
+    font-weight: 700; 
+    line-height: 6.0rem; 
+    color: #212121;
+} 
+
+.navigation .navigation-title  { 
+    font-weight: 700;
+} 
+
+a:hover { 
+    color: #217ee7;
+} 
+
+.navigation a:hover { 
+    color: #217ee7; 
+    border-bottom: 2px #217ee7 solid;
+} 
+
+input { 
+    font-family: inherit; 
+    font-size: 100%; 
+    line-height: 1.15; 
+    margin: 0;
+} 
+
+input { 
+    overflow: visible;
+} 
+
+[type="checkbox"] { 
+    box-sizing: border-box; 
+    padding: 0;
+} 
+
+.navigation #menu-toggle  { 
+    display: none;
+} 
+
+.float-right { 
+    float: right;
+} 
+
+.navigation .menu-button  { 
+    display: none;
+} 
+
+.navigation .navigation-list  { 
+    float: right; 
+    list-style: none; 
+    margin-bottom: 0; 
+    margin-top: 0;
+} 
+
+.footer .separator  { 
+    margin-left: 0.5em; 
+    margin-right: 0.5em;
+} 
+
+.footer .separator::after { 
+    content: '·';
+} 
+
+.inline-svg { 
+    display: inline-block; 
+    vertical-align: middle;
+} 
+
+.navigation .navigation-list .navigation-item  { 
+    float: left; 
+    margin: 0; 
+    position: relative;
+} 
+
+.inline-svg svg  { 
+    width: 1em; 
+    height: 1em; 
+    fill: currentColor; 
+    display: inline-block;
+} 
+
+.navigation .navigation-list .navigation-item a  { 
+    margin-left: 1.0rem; 
+    margin-right: 1.0rem;
+} 
+
+.navigation a:hover, .navigation a:focus { 
+    color: #217ee7; 
+    border-bottom: 2px #217ee7 solid;
+} 
+
+
+.about-me-text { 
+    float: left; 
+    width: 64%; 
+    padding-right: 2em;
+} 
+
+.about-me-photo { 
+    float: right; 
+    width: 36%;
+} 
+
+.clearfix:after { 
+    content: ""; 
+    clear: both; 
+    display: table;
+} 
+
+h3 { 
+    font-family: "Lato", sans-serif; 
+    font-weight: 700; 
+    color: #000000; 
+    margin: 6.4rem 0 1.8rem 0;
+} 
+
+h3cfv { 
+    font-size: 2.4rem; 
+    line-height: 2.8rem;
+}  
+
+
+
+
 
