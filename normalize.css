@@ -375,7 +375,7 @@ template {
 
 
 .section-subheading {
-    font-size: 1em;
+/*     font-size: 1em; */
     font-weight: 700;
     line-height: 1.5;
     text-transform: uppercase
@@ -392,9 +392,9 @@ template {
     text-decoration: none
 }
 
-ul.ul-interests li {
-    font-size: 3rem
-}
+/* ul.ul-interests li {
+    font-size: 1rem
+} */
 
 ul.ul-edu {
     list-style: none
@@ -409,12 +409,12 @@ ul.ul-edu li .description p {
     margin: 0
 }
 
-ul.ul-edu li .description p.course {
+/* ul.ul-edu li .description p.course {
     font-size: 1rem
-}
+} */
 
 ul.ul-edu li .description p.institution {
-    font-size: 1rem;
+/*     font-size: 1rem; */
     color: rgba(0,0,0,.6)
 }
 
