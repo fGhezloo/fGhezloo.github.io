@@ -375,7 +375,7 @@ template {
 
 
 .section-subheading {
-/*     font-size: .9rem; */
+    font-size: 1em;
     font-weight: 700;
     line-height: 1.5;
     text-transform: uppercase
@@ -392,11 +392,9 @@ template {
     text-decoration: none
 }
 
-
-
-/* ul.ul-interests li {
-    font-size: .9rem
-} */
+ul.ul-interests li {
+    font-size: 3rem
+}
 
 ul.ul-edu {
     list-style: none
@@ -411,20 +409,20 @@ ul.ul-edu li .description p {
     margin: 0
 }
 
-/* ul.ul-edu li .description p.course {
-    font-size: .9rem
-} */
+ul.ul-edu li .description p.course {
+    font-size: 1rem
+}
 
 ul.ul-edu li .description p.institution {
-/*     font-size: .75rem; */
+    font-size: 1rem;
     color: rgba(0,0,0,.6)
 }
 
-.wg-contact .fa-ul {
+.fa-ul {
     margin-left: 3.14285714rem
 }
 
-.wg-contact .fa-li {
+.fa-li {
     position: absolute;
     left: -3.14285714rem;
     width: 2rem;
@@ -432,11 +430,11 @@ ul.ul-edu li .description p.institution {
     text-align: center
 }
 
-.wg-contact li {
+/* li {
     padding-top: .8rem;
     margin-bottom: .3rem
 }
 
-.wg-contact li:last-of-type {
+li:last-of-type {
     margin-bottom: 0
-}
+} */
