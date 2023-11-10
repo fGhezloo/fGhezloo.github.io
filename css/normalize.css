@@ -799,3 +799,33 @@ article .article-metadata {
 .dark .article-metadata a {
     color: rgba(255,255,255,.54)
 }
+.card .card-text {
+    padding: .75rem 1rem
+}
+
+.card .card-text p {
+    color: rgba(0,0,0,.54);
+    font-size: .75rem
+}
+
+h4,h5,h6 {
+    font-weight: 1000;
+    margin-top: 1rem;
+    font-size: 1rem
+}
+.author-card .card-subtitle {
+    font-weight: 300;
+    font-size: .8rem;
+    color: rgba(0,0,0,.54);
+    margin-bottom: 7px
+}
+
+.dark .author-card .card-subtitle {
+    color: rgba(255,255,255,.54)
+}
+
+.author-card .card-text {
+    color: rgba(0,0,0,.76);
+    font-size: .8rem;
+    margin-bottom: 4px
+}
