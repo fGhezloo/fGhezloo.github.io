@@ -829,3 +829,28 @@ h4,h5,h6 {
     font-size: .8rem;
     margin-bottom: 4px
 }
+.course .card-subtitle a:hover {
+    border-bottom: solid 1px;
+    text-decoration: none
+}
+
+.dark .card .card-image.hover-overlay::before {
+    background: #666
+}
+
+.dark .card .card-image.hover-overlay::after {
+    color: #fff
+}
+
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,.2)
+}
+
+.card:hover .card-image.hover-overlay::before {
+    opacity: .8
+}
+
+.card:hover .card-image.hover-overlay::after {
+    opacity: .6
+}
